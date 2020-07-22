@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
+import HomeOne from './HomeComponents/Hmoe-1';
+import HomeTwo from './HomeComponents/HomeTwo';
+import HomeBox from './HomeComponents/HomeBox';
+
+
+
 
 const Home = () => {
-    return (
-        <div className="container-fluid nav-bg">
-          <div className="row">
-            <div className="col-10 mx-auto">
-            <h1>this is Home</h1>
-            </div>
-          </div>
-        </div>
-    )
+  return (
+    <div>
+      <HomeOne />
+      <HomeTwo />
+      <HomeBox />
+    </div>
+  )
 }
 
 export default Home
