@@ -11,17 +11,20 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Setup Node
-      uses: actions/setup-node@v2-beta
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v1.4.2
       with:
-          node-version: 12
-    
-    - name: Build React App
-      run: |
-        npm install # Install Dependencies
-        CI=false npm run build # CI=false to ignore warnings
+         version: 12
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@v2.3.0
+      with:
+        # Yarn command
+        cmd: install # npm / yarn installing
         
-    - name: Install Surge
+    - name: creating build
+      run: yarn build
+    
+    - name: installing surge
       run: npm install -g surge
       
     - name: Deploy to Surge
