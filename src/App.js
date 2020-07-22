@@ -7,7 +7,7 @@ import Career from './Components/Career';
 import Contect from './Components/Contect';
 import Services from './Components/Services';
 import NotFound from './Components/NotFound';
-import Navber from './Navber';
+import Navber from './Navber'
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
