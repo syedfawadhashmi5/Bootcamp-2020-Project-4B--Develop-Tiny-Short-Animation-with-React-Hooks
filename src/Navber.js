@@ -19,9 +19,7 @@ const Navber = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                      <Link ClassName="Menu_active" className="nav-link active" to="/">Home <span className="sr-only"></span></Link>
-                    </li>
-//                    
+                      <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link></li>
                   </ul>
                 </div>
               </div>
