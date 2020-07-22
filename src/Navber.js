@@ -22,16 +22,16 @@ const Navber = () => {
                       <Link ClassName="Menu_active" className="nav-link active" to="/">Home <span className="sr-only"></span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="Menu_active" className="nav-link active" to="About">About</span></Link>
+                      <Link className="Menu_active" className="nav-link active" to="About">AboutLink>
                     </li>
                     <li className="nav-item">
-                      <Link className="Menu_active" className="nav-link active" to="Career">Career</span></Link>
+                      <Link className="Menu_active" className="nav-link active" to="Career">Career</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="Menu_active" className="nav-link active" to="Contect">Contect</span></Link>
+                      <Link className="Menu_active" className="nav-link active" >Contect</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className='Menu_active' className="nav-link active" to="Services">Services</span></Link>
+                      <Link className='Menu_active' className="nav-link active" >Services</Link>
                     </li>
                   </ul>
                 </div>
