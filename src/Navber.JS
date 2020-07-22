@@ -3,7 +3,7 @@ import './App.css'
 import { Link } from "react-router-dom";
 
 
-const Navber = () => {
+const Nav = () => {
   return (
     <>
       <div className="container-fluid nav-bg bg-bg">
@@ -44,4 +44,4 @@ const Navber = () => {
   )
 }
 
-export default Navber
+export default Nav
