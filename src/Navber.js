@@ -20,6 +20,7 @@ const Navber = () => {
                   <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
@@ -34,6 +35,9 @@ const Navber = () => {
                     <li className="nav-item">
                       <Link  className="nav-link active" to="Services">Services</Link>
                     </li>
+=======
+                      <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link></li>
+>>>>>>> 043a58276aa819dcc30af7a848339cf504c00d79
 =======
                       <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link></li>
 >>>>>>> 043a58276aa819dcc30af7a848339cf504c00d79
