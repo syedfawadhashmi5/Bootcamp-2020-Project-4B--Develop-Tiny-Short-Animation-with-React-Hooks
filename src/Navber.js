@@ -33,8 +33,6 @@ const Navber = () => {
                     <li className="nav-item">
                       <Link  className="nav-link active" to="Services">Services</Link>
                     </li>
-                      <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link></li>
-                      <Link ClassName="Menu_active" className="nav-link active" to="/">Home</Link></li>
                   </ul>
                 </div>
               </div>
