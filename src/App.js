@@ -19,7 +19,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 function App() {
   return (
     <div>
-      <Nav />
+      <Navber  />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
