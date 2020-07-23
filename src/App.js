@@ -7,7 +7,7 @@ import Career from './Components/Career';
 import Contect from './Components/Contect';
 import Services from './Components/Services';
 import NotFound from './Components/NotFound';
-import Nav from './Navber';
+import Navber from './Navber';
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,7 +19,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 function App() {
   return (
     <div>
-      <Navber />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
